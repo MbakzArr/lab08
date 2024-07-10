@@ -15,9 +15,14 @@ public class BookStore
     private final String bookStoreName;
     private ArrayList<Novel> novels;
 
-    private static final int LAST_DECADE = 2009;
-    private static final int MAX_PERCENTAGE = 100;
+    private static final int LAST_DECADE;
+    private static final int MAX_PERCENTAGE;
 
+    static
+    {
+        LAST_DECADE    = 2009;
+        MAX_PERCENTAGE = 100;
+    }
     /**
      * Constructs a BookStore object with the specified name and populates the list of novels.
      *

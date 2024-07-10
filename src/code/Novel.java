@@ -54,10 +54,10 @@ public class Novel
      * Returns a string representation of the object. In this case, it returns a formatted string
      * containing the title, author, and year of publication.
      *
-     * @return A string representation of the object in the format "Title: [title], Author: [author], Year: [year]".
+     * @return A string representation of the object in the format "[title], [author], [year]".
      */
     @Override
     public String toString() {
-        return "Title: " + title + ", Author: " + author_Name + ", Year: " + year_Published;
+        return title + author_Name + year_Published;
     }
 }
