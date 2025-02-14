@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * A class representing a bookstore containing a collection of novels.
  *
- * @author Mbadaliga Arehone Brenden and Ravhuravhu Junior Khuliso
+ * @author Mbadaliga Arehone Brenden and Ravhuravhu Junior
  * @version 1.0
  */
 public class BookStore
